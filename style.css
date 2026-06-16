@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 360px;
+    color: #ffffff;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255);
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #000000;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.weather-info h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #f9f9f9;
+}
+
+.weather-info .temperature {
+    font-size: 48px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.weather-info .condition {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #d1ecff;
+}
+
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.details div {
+    text-align: center;
+    color: #ffffffcc;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scrollbar-width: thin;
+}
+
+.forecast::-webkit-scrollbar {
+  height: 6px;
+}
+
+.forecast::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+.forecast-card {
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    padding: 10px;
+    min-width: 70px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffffde;
+    backdrop-filter: blur(6px);
+}
