@@ -28,7 +28,7 @@ A clean, glassmorphic weather app built with vanilla HTML, CSS, and JavaScript. 
 
 1. Clone or download this repository.
    ```bash
-   git clone https://github.com/KishanSaha2000/Weather-Forcasting-App.git
+   https://github.com/KishanSaha2000/Weather-Forcasting-App.git
    ```
 2. Open `index.html` directly in your browser.
 3. Type a city name in the search box and click the search icon to view its weather.
